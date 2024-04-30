@@ -1,0 +1,15 @@
+ version: "3.3"
+
+ services:
+   api-students:
+     image: katrinajolov/api-students
+     ports:
+       - 8000:8000
+   websimple:
+     image: katrinajolov/websimple
+     ports:
+       - 8080:80
+   webbonita:
+     image: katrinajolov/webbonita
+     ports:
+       - 8081:80
